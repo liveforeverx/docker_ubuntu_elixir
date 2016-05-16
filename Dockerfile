@@ -33,5 +33,5 @@ RUN mix local.rebar --force
 WORKDIR /
 
 ######### POSTGRES #########
-RUN apt-get install postgresql-client
+RUN apt-get install -y postgresql-client
 
